@@ -14,6 +14,6 @@
 
     - name: Hosts file template deployed
       win_template:
-        src: templates/hosts.j2
+        src: hosts.j2
         dest: C:\Windows\System32\drivers\etc\hosts
         backup: yes
